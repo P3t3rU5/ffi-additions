@@ -11,5 +11,5 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'https://github.com/P3t3rU5/ffi-additions'
   gem.require_paths = %w'lib'
   gem.files         = Dir['{lib/**/*.rb,*.md}']
-  gem.add_dependency 'ffi'
+  gem.add_dependency 'ffi', '~> 1.9'
 end
