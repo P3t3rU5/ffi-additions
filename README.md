@@ -10,11 +10,15 @@ To install:
 gem install ffi-additions
 ```
 
-# License
+`FFIAdditions::Struct` - same as FFI::Struct, but with getters and setter defined for all layout fields.
 
+`Array::from_pointer_of` - maps pointer to an array of structs
+
+# License
+```
 (The MIT License)
 
-Copyright &copy; 2013 Pedro Miranda
+Copyright &copy; 2016 Pedro Miranda
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -34,3 +38,4 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
