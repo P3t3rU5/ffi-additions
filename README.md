@@ -1,6 +1,6 @@
 # FFI Additions
 
-[![Join the chat at https://gitter.im/P3t3rU5/winffi](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/P3t3rU5/winffi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gem Version](https://badge.fury.io/rb/ffi-additions.svg)](https://badge.fury.io/rb/ffi-additions)
 
 FFI Additions is a gem that adds functionality to FFI
 This gem is work in progress
