@@ -13,12 +13,8 @@ module FFIAdditions
       # puts args
       super(args)
       members.each do |name|
-        unless method_defined?(name)
-          define_method name, ->{ self[name] }
-        end
-        unless method_defined?("#{name}=")
-          define_method "#{name}=", ->(v){ self[name] = v }
-        end
+        define_method name, ->{ self[name] }
+        define_method "#{name}=", ->(v){ self[name] = v }
       end
     end
   end
@@ -27,10 +23,8 @@ module FFIAdditions
     def self.layout(*args)
       super
       members.each do |name|
-        unless method_defined?(name)
-          define_method name, ->{ self[name] }
-          define_method "#{name}=", ->(v){ self[name] = v }
-        end
+        define_method name, ->{ self[name] }
+        define_method "#{name}=", ->(v){ self[name] = v }
       end
     end
   end
